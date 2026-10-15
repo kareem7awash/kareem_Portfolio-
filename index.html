@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kareem Hawash: Design, Code & AI</title>
+<meta name="description" content="Portfolio of Kareem Hawash, Computer Science (AI track) student and UI/UX designer: Study Go, IEEE Xtreme 19.0, NTI UI/UX training and ongoing Data Science training.">
+<meta name="theme-color" content="#08070B">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Kaushan+Script&family=Knewave&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L5 14h6l-1 8 8-12h-6z"/></symbol>
+<symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l1-5L16 4l4 4L9 19z"/><path d="M14 6l4 4"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
+<symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></symbol>
+<symbol id="i-nodes" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="8" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7l8 1M7 8l4 8M17 10l-4 6"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c0-4 3-6 7-6s7 2 7 6M17 5a3.5 3.5 0 010 7M19 14c2 .7 3 2.5 3 5"/></symbol>
+<symbol id="i-bug" viewBox="0 0 24 24"><rect x="8" y="8" width="8" height="12" rx="4"/><path d="M12 8V5M8 12H3M16 12h5M8 17l-4 2M16 17l4 2M9 5l1.5 2M15 5l-1.5 2"/></symbol>
+<symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7 4h10v5a5 5 0 01-10 0zM7 6H3c0 4 2 5 4 5M17 6h4c0 4-2 5-4 5M12 14v4M8 21h8"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-7M12 13c0-2 1.5-3 3-3s3 1 3 3v4"/></symbol>
+<symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></symbol>
+</defs></svg>
+
+<header class="nav">
+<div class="nav-in">
+<a class="brand" href="#home" aria-label="Kareem Hawash, home"><svg class="spider" viewBox="0 0 40 40" aria-hidden="true"><ellipse cx="20" cy="17" rx="4" ry="6"/><ellipse cx="20" cy="26" rx="5.5" ry="7.5"/><path d="M16 15L5 6M16 18L3 17M16 21L4 29M16 24L8 36M24 15l11-9M24 18l13-1M24 21l12 8M24 24l8 12" stroke-width="1.8" fill="none"/></svg><span>Kareem</span></a>
+<button class="menu" id="menu" aria-expanded="false" aria-controls="links">☰ Menu</button>
+<nav id="links" aria-label="Main navigation">
+<a href="#home" class="on">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#journey">Journey</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+</nav>
+<button class="flip" id="flip" type="button" aria-label="Swap light and dark sections"><svg class="ic"><use href="#i-sun"/></svg></button>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="city" id="city" aria-hidden="true"></div><div class="slash s1" aria-hidden="true"></div><div class="slash s2" aria-hidden="true"></div>
+<div class="hero-in">
+<h1><span class="hi">Hi, I'm</span><span class="n1">KAREEM</span><span class="n2">HAWASH</span></h1>
+<p class="sub">Exploring the intersection of design, code, and AI to build more meaningful digital experiences.</p>
+<div class="btns"><a class="b red" href="#journey">Explore My Journey <span aria-hidden="true">→</span></a><a class="b" href="#projects">View My Projects <span aria-hidden="true">→</span></a></div>
+</div>
+<figure class="portrait"><span class="tape" aria-hidden="true"></span><img src="assets/kareem.jpg" alt="Portrait of Kareem Hawash"></figure>
+<p class="note hnote" aria-hidden="true">Better<br>Tools<br>Bigger<br>Impact</p>
+</section>
+
+<section class="band lt" id="about">
+<p class="note n-l" aria-hidden="true">Same<br>dream…<br>Bigger<br>plans.</p>
+<div class="sec-h"><b class="num">01</b><span class="lab">About me</span></div>
+<div class="wrap about">
+<div><h2 class="script">Nice to meet you!</h2>
+<p>I'm Kareem, a Computer Science student at MUST, exploring the relationship between design, programming, and AI. I enjoy learning how technology works and how thoughtful design can make digital experiences easier to understand and use.</p>
+<p>My journey combines UI/UX design, programming, and ongoing learning in Data Science. I'm interested in turning ideas into useful digital experiences, one project and one lesson at a time.</p>
+<a class="b ink" href="#journey">More About My Journey <span aria-hidden="true">→</span></a></div>
+<ul class="facts">
+<li><svg class="ic"><use href="#i-pin"/></svg><div><b>MUST</b><span>Computer Science · AI Track · Expected 2028</span></div></li>
+<li><svg class="ic"><use href="#i-pen"/></svg><div><b>UI/UX Designer</b><span>Figma, wireframes, prototypes, design systems</span></div></li>
+<li><svg class="ic"><use href="#i-bolt"/></svg><div><b>Lifelong Learner</b><span>Data Science training in progress</span></div></li>
+</ul>
+</div>
+</section>
+
+<section class="band dk" id="skills">
+<p class="note n-r" aria-hidden="true">Design<br>Code<br>Data<br>AI</p>
+<div class="sec-h"><b class="num">02</b><span class="lab">Skills</span></div>
+<div class="wrap">
+<h2 class="script">Tools for a Bigger Vision</h2>
+<p class="lede">A growing toolkit across creative thinking, programming, and computer science.</p>
+<div class="cards">
+<article class="card c-v"><svg class="ic big"><use href="#i-pen"/></svg><h3>UI/UX Design</h3><ul><li>Figma</li><li>Wireframing</li><li>Prototyping</li><li>Design Systems</li><li>User Research</li></ul></article>
+<article class="card c-b"><svg class="ic big"><use href="#i-code"/></svg><h3>Programming</h3><ul><li>Python</li><li>C++</li><li>HTML</li><li>CSS</li><li>SQL</li></ul></article>
+<article class="card c-g"><svg class="ic big"><use href="#i-cpu"/></svg><h3>Computer Science</h3><ul><li>Data Structures</li><li>Object-Oriented Programming</li><li>Database Management</li><li>Human-Computer Interaction</li></ul></article>
+<article class="card c-v"><svg class="ic big"><use href="#i-nodes"/></svg><h3>Data &amp; AI</h3><ul><li>AI track (academic study)</li><li>Data Science training (in progress)</li></ul><span class="chip">Learning</span></article>
+</div>
+<p class="fine">Skills shown reflect my current learning and practice; proficiency continues to develop.</p>
+</div>
+</section>
+
+<section class="band lt" id="projects">
+<p class="note n-l" aria-hidden="true">Small<br>Steps<br>Big<br>Results</p>
+<div class="sec-h"><b class="num">03</b><span class="lab">Projects</span></div>
+<div class="wrap proj">
+<div class="pcard">
+<h2 class="script">Projects That Matter</h2>
+<p class="lede">A UI/UX project where ideas meet practical design.</p>
+<div class="pbox"><img class="plogo" src="assets/sg-logo.png" alt="Study Go"><p class="ptag">Student-Focused Learning App · UI/UX design · Figma</p>
+<p>A student-focused learning app concept designed to help users organize study routines, track progress, and stay consistent with their goals. A solo project: a high-fidelity Figma prototype of 15+ screens.</p>
+<ul class="chips"><li>Study Schedules</li><li>Progress Tracking</li><li>Gamification</li><li>Focus Mode</li></ul>
+<a class="b ink" href="studygo/index.html" id="sgLink">Explore Project <span aria-hidden="true">↗</span></a></div>
+</div>
+<div class="phones" aria-label="Study Go app screens"><div class="ph a"><img src="assets/sg-dashboard.jpg" alt="Study Go dashboard screen" loading="lazy"></div><div class="ph b"><img src="assets/sg-home.jpg" alt="Study Go home screen" loading="lazy"></div><div class="ph c"><img src="assets/sg-focus.jpg" alt="Study Go focus timer screen" loading="lazy"></div></div>
+</div>
+</section>
+
+<section class="band dk" id="achievements">
+<p class="note n-r" aria-hidden="true">Learn.<br>Compete.<br>Grow.</p>
+<div class="sec-h"><b class="num">04</b><span class="lab">Achievements</span></div>
+<div class="wrap ach">
+<div><h2 class="script">Challenge Accepted</h2>
+<p>I took part in IEEE Xtreme 19.0, a 24-hour global programming competition with 19,000+ participants, as team leader of team bangGOAT. It was a chance to practice competitive programming, work as a team, and solve problems under time pressure.</p>
+<p class="fine">Participation only. No ranking or win is claimed.</p>
+<ul class="mini"><li><svg class="ic"><use href="#i-users"/></svg><div><b>Team Collaboration</b><span>Worked together under pressure</span></div></li><li><svg class="ic"><use href="#i-trophy"/></svg><div><b>Competitive Programming</b><span>Algorithmic problem solving</span></div></li><li><svg class="ic"><use href="#i-bug"/></svg><div><b>Debugging</b><span>Fixing fast, thinking clearly</span></div></li></ul></div>
+<div class="acard"><figure class="polaroid"><span class="tape" aria-hidden="true"></span><img src="assets/ieee-photo.jpg" alt="Kareem Hawash at IEEE Xtreme 19.0" loading="lazy"><figcaption>IEEE Xtreme 19.0 · October 25, 2025</figcaption></figure>
+<div class="certs"><p class="k">Certificates</p>
+<button type="button" class="cert" data-i="0"><img src="assets/cert-ieee.jpg" alt="" loading="lazy"><span>Certificate of Participation<small>Team bangGOAT · signed by the IEEE President</small></span></button>
+<button type="button" class="cert" data-i="1"><img src="assets/cert-psu.jpg" alt="" loading="lazy"><span>Certificate of Participation<small>Hosted by IEEE PSU Student Branch</small></span></button></div></div>
+</div>
+</section>
+
+<section class="band lt" id="journey">
+<p class="note n-l" aria-hidden="true">Still<br>in<br>Progress</p>
+<div class="sec-h"><b class="num">05</b><span class="lab">Journey</span></div>
+<div class="wrap">
+<h2 class="script">The Path So Far</h2>
+<p class="lede">An ongoing timeline of learning, practice, and exploration.</p>
+<div class="jgrid"><ol class="tl">
+<li><svg class="ic dot"><use href="#i-pin"/></svg><div><time>Sep 2024 – Jun 2028 (expected)</time><h3>Computer Science (AI Track), MUST</h3><p>Misr University for Science and Technology, Faculty of Computers and Information.</p></div></li>
+<li><svg class="ic dot"><use href="#i-pen"/></svg><div><time>2025 – 2026</time><h3>Study Go</h3><p>A solo UI/UX project designed in Figma. <a href="studygo/index.html">See the project</a></p></div></li>
+<li><svg class="ic dot"><use href="#i-trophy"/></svg><div><time>October 25, 2025</time><h3>IEEE Xtreme 19.0</h3><p>Team bangGOAT, as team leader. Participation in a global 24-hour programming competition.</p></div></li>
+<li><svg class="ic dot"><use href="#i-target"/></svg><div><time>Feb 8 – May 1, 2026</time><h3>UI/UX Design Training, NTI</h3><p>National Telecommunication Institute, Egypt's Ministry of Communications and Information Technology. Wireframing, prototyping, user flows, Figma, design systems, usability, accessibility.</p></div></li>
+<li class="now"><svg class="ic dot"><use href="#i-bolt"/></svg><div><time>Ongoing</time><h3>Data Science, DEPI / Roaad Misr</h3><p>Digital Egypt Pioneers Initiative: training in progress.</p></div></li>
+</ol>
+<div class="nti"><figure><img src="assets/nti-present.jpg" alt="Kareem presenting the Study Go prototype on a screen at NTI" loading="lazy"><figcaption>Presenting Study Go during the NTI training</figcaption></figure><figure><img src="assets/nti-team.jpg" alt="Kareem with the team in front of the NTI building" loading="lazy"><figcaption>With the team at NTI</figcaption></figure></div>
+</div>
+</div>
+</section>
+
+<section class="band dk" id="blog">
+<p class="note n-r" aria-hidden="true">Ideas<br>Turn Into<br>Progress</p>
+<div class="sec-h"><b class="num">06</b><span class="lab">Blog</span></div>
+<div class="wrap"><h2 class="script">Thoughts &amp; Experiences</h2>
+<p class="lede">Notes from the learning process. Planned topics, not yet published.</p>
+<div class="posts"><article><span class="chip">Coming soon</span><h3>What I'm Learning in Data Science</h3></article><article><span class="chip">Coming soon</span><h3>Designing for Focus</h3></article><article><span class="chip">Coming soon</span><h3>Lessons from Problem Solving</h3></article></div></div>
+</section>
+
+<section class="contact" id="contact">
+<div class="city flipc" aria-hidden="true"></div>
+<div class="wrap c-in"><h2 class="script big">Let's build something great.</h2>
+<p class="lede">Open to learning opportunities, thoughtful collaborations, and conversations about design and technology.</p>
+<ul class="clist"><li><svg class="ic"><use href="#i-mail"/></svg><a href="mailto:Kwash18@gmail.com">Kwash18@gmail.com</a></li><li><svg class="ic"><use href="#i-in"/></svg><a href="https://linkedin.com/in/kareem-7awash" rel="noopener">linkedin.com/in/kareem-7awash</a></li><li><svg class="ic"><use href="#i-dl"/></svg><a href="assets/Kareem_Hawash_CV.pdf" download>Download my CV (PDF)</a></li></ul></div>
+</section>
+</main>
+<footer>© <span id="yr"></span> Kareem Hawash · Designed with passion, built one chapter at a time.</footer>
+
+<dialog id="lb" aria-label="Certificate viewer"><button class="x" id="lx" type="button" aria-label="Close">✕</button><button class="lp" id="lp" type="button" aria-label="Previous certificate">←</button><img id="limg" alt=""><button class="ln" id="ln" type="button" aria-label="Next certificate">→</button><p id="lcap"></p></dialog>
+<script src="js/main.js"></script>
+</body>
+</html>
